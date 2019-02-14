@@ -1,0 +1,150 @@
+/*******overlay*******/
+
+
+
+.contact-us-sec 
+{
+    position:relative;
+    padding:50px 0px;
+}
+.contact-column {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    text-transform: uppercase;
+    max-width: 90%;
+}
+.contact-us-sec .main h2{
+    font-size:48px;
+    display:block;
+    max-width:490px;
+}
+.contact-us-sec .main p {
+    max-width: 550px;
+    color: #4a4a4a;
+}
+.contact-us-sec .contact-column h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000000;
+    object-fit: contain;
+    line-height:24px;
+    height:48px;
+    margin-bottom:1rem;
+}
+.contact-us-sec .contact-column address {
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.contact-us-sec .contact-column address span {
+    display: block;
+    line-height: 1.19;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.contact-us-sec .contact-column span.telephone 
+{
+    display:block;
+    margin-bottom:1rem;
+}
+    .contact-us-sec .contact-column span.telephone small {
+        display: block;
+        color: #000;
+        font-family: 'alternategotno3dregular';
+    }
+    .contact-us-sec .contact-column span.telephone a 
+    {
+
+    }
+.contact-us-sec .open-links 
+{
+    max-width:250px;
+    position:relative;
+    top:-2px;
+}
+
+.contact-us-sec .open-links a {
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.contact-us-sec .contact-form 
+{
+    padding:50px 0px;
+}
+.contact-us-sec .contact-form h2 {
+    line-height: 0.8;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #171a21;
+    font-size: 60px;
+}
+    .contact-us-sec .contact-form form 
+    {
+        padding-top:50px;
+    }
+    .contact-us-sec .contact-form .form-control {
+        border: 0;
+        border-bottom: 1px solid rgba(74, 74, 74, 0.3);
+        border-radius: 0;
+        padding-left: 0;
+        line-height: 1.19;
+        letter-spacing: 0.3px;
+        text-align: left;
+        color: #4a4a4a;
+        font-family: 'Helvetica Neue LT Std';
+    }
+        .contact-us-sec .contact-form .form-control:focus {
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #171a21;
+        }
+    .contact-us-sec .contact-form form label {
+        line-height: 1.64;
+        letter-spacing: 1.2px;
+        text-align: left;
+        color: #000000;
+        font-size: 11px;
+        font-family: 'alternategotno3dregular';
+        text-transform:uppercase;
+    }
+.contact-us-sec .contact-form fieldset
+{
+    height:52px;
+}
+    .contact-us-sec .contact-form fieldset select, .contact-us-sec .contact-form fieldset select option, .contact-us-sec .contact-form select.form-control, .contact-us-sec .contact-form .form-group small {
+        font-family: 'alternategotno3dregular' !important;
+        font-size: 11px;
+        text-transform:uppercase;
+        color:#000;
+    }
+    .contact-us-sec .contact-form input::-webkit-input-placeholder {
+        color: #000;
+        font-family: 'alternategotno3dregular';
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    .contact-us-sec .contact-form input::-moz-placeholder {
+        color: #000;
+        font-family: 'alternategotno3dregular';
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    .contact-us-sec .contact-form input:-ms-input-placeholder {
+        color: #000;
+        font-family: 'alternategotno3dregular';
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+
+    .contact-us-sec .contact-form a.view-tick-link {
+        text-align: right;
+        display: block;
+    }
+.map-padding 
+{
+    padding:15px;
+}
+
+/************
+    *****************************/

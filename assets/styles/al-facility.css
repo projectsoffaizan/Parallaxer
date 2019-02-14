@@ -1,0 +1,172 @@
+
+
+
+.alsf-1-col-content 
+{
+    position:relative;
+    padding:50px 0px;
+}
+    .alsf-1-col-content h2 {
+        letter-spacing: 2px;
+        font-size: 60px;
+        line-height: 1;
+    }
+    .alsf-1-col-content p 
+    {
+        max-width:560px;
+        padding:30px 0px;
+    }
+.amenties-section {
+    position: relative;
+    background-color: #eee;
+    height:190px;
+}
+    .amenties-section .amenties-ul {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: row;
+        text-align: center;
+        height: 190px;
+        padding-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+        .amenties-section .amenties-ul li 
+        {
+            margin-left:15px;
+            margin-right:15px;
+        }
+        
+        .amenties-ul .img {
+            height: 50px;
+        }
+
+.amenties-ul img {
+    display: block;
+    margin: 0 auto;
+}
+/*************/
+.alsf-fc-3-8 
+{
+    padding:50px 0px;
+    position:relative;
+}
+.alsf-fc-3-8  .content p
+{
+    max-width:300px;
+    margin:0 auto;
+}
+    .alsf-fc-3-8  .content .schedule {
+        font-family: 'alternategotno3dregular';
+        font-size:13px;
+        display:flex;
+        justify-content:space-between;
+        margin-bottom:40px;
+        position:relative;
+    }
+        .alsf-fc-3-8  .content .schedule label 
+        {
+            margin-bottom:0;
+        }
+        
+        .alsf-fc-3-8  .content .circle {
+            border-radius: 50%;
+            width: 4px;
+            height: 4px;
+            background-color: #a86544;
+            margin: 0 auto;
+            position: relative;
+            bottom: -11px;
+        }
+        
+        .alsf-fc-3-8  .Aligner {
+            text-align: center;
+        }
+            .alsf-fc-3-8 .Aligner .Aligner-item
+            {
+                padding-top:7px;
+            }
+            .alsf-fc-3-8 .Aligner h2 {
+                font-size: 60px;
+                padding-bottom: 10px;
+            }
+
+
+        .alsf-fc-3-8  .Aligner p {
+            text-align: center;
+            padding-bottom: 40px;
+        }
+        .alsf-fc-3-8  .Aligner .icon-ul {
+            justify-content: center;
+            padding-bottom:40px;
+        }
+            .alsf-fc-3-8  .Aligner .icon-ul li 
+            {
+                margin-right:15px;
+                margin-left:15px;
+            }
+.alsf-fc-slider {
+    padding: 0px 25px;
+    position: relative;
+}
+
+    .alsf-fc-slider .slider {
+        position: relative;
+        height: 550px;
+    }
+    .alsf-fc-slider .center-with-absolute {
+        height: 100px;
+        color: #fff;
+    }
+    .alsf-fc-slider .center-with-absolute img
+    {
+        height:100px;
+        display:block;
+        margin:0 auto;
+    }
+        .alsf-fc-3-8  .content .seperator {
+            width: 40px;
+            height: 2px;
+            background-color: #191a22;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+.alsf-fc-3-8  .content a.book-now-header {
+    width: 150px;
+    height: 52px;
+    display: block;
+    padding-top: 13px;
+    margin:0 auto;
+    position:relative;
+}
+    .alsf-fc-3-8  .content a.book-now-header.without-color {
+        background-color: transparent;
+        color: #a86544;
+        border: 2px solid #a86544;
+    }
+    .alsf-fc-3-8  .buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+.alsf-fc-3-8 h4.border-style
+{
+    margin-bottom:40px;
+}
+
+.alsf-fc-3-8 h4.border-style::after {
+    border-bottom: 2px solid #000;
+    content: "";
+}
+
+
+.alsf-fc-slider .slick-dots {
+    text-align: center;
+    margin-top: -30px;
+}
+.alsf-fc-slider .slick-dots li.slick-active button {
+    border: 2px solid #fff;
+}
+.alsf-fc-slider .slick-dots li button {
+    border-radius: 0;
+}

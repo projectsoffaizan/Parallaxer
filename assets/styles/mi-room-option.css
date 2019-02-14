@@ -1,0 +1,114 @@
+
+
+/*section Banner Silo*/
+.banner-up-silo {
+    position: relative;
+    width: 100%;
+    margin-top: -110px;
+    margin-bottom: 33px;
+    z-index: 91;
+    display: block;
+}
+    .banner-up-silo .icon-ul {
+        justify-content: center;
+    }
+    .banner-up-silo .icon-ul li {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+        .banner-up-silo .icon-ul li a 
+        {
+            color:#fff;
+        }
+/*Two Column Layout*/
+.room-two-column 
+{
+    padding:50px 0px;
+}
+    .room-two-column .content-with-icons ul
+    {
+        margin-top:50px;
+    }
+    .room-two-column .content-with-icons li {
+        padding-right: 50px;
+        color: #000000;
+    }
+    .room-two-column .content-with-icons h2 {
+        font-size: 60px;
+        line-height: 0.8;
+        letter-spacing: 2px;
+    }
+    .room-two-column .content-with-icons h3 {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .room-two-column .content-with-book 
+    {
+        max-width:480px;
+    }
+        .room-two-column .content-with-book .view-tick-link 
+        {
+            margin-top:30px;
+            display:block;
+        }
+/*Full Width Layout*/
+.full-width-slider 
+{
+    padding:50px;
+    position:relative;
+}
+.room-fw-slider 
+{
+    position:relative;
+}
+/*rm-content*/
+.rm-content 
+{
+    padding:50px 0px;
+}
+.rm-content-heading h2 {
+    font-size: 60px;
+    line-height: 48px;
+    letter-spacing: 2px;
+}
+.rm-content-heading 
+{
+    max-width:60%;
+}
+.rm-content-text {
+    max-width: 480px;
+}
+    .rm-content-text .view-tick-link 
+    {
+        display:inline-block;
+        padding-top:20px;
+    }
+    /*****************************/
+    /************Room Three Cards*************/
+    .rm-three-cards {
+        position: relative;
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .rm-three-cards .card-wrap {
+        display: flex;
+        justify-content: flex-start;
+        height: 550px;
+        width: 100%;
+        align-content: space-between;
+        position: relative;
+        bottom: -25px;
+        z-index: 9;
+    }
+        .rm-three-cards .card-wrap .background-card 
+        {
+            width:100%;
+        }
+        .rm-three-cards .card-wrap:first-child .background-card 
+        {
+            margin-right:15px;
+        }
+        .rm-three-cards .card-wrap:nth-child(2) .background-card {
+            margin-right: 15px;
+        }

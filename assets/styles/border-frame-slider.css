@@ -1,0 +1,149 @@
+
+
+/*Border frame with slider*/
+.border-frame-slider {
+    height: 600px;
+    background-size: cover !important;
+    background-position: center center !important;
+    position: relative;
+}
+
+    .border-frame-slider .slider {
+        width: 540px;
+        margin: 0 auto;
+        padding: 84px 0px;
+    }
+
+    .border-frame-slider .box-border {
+        width: 85px;
+        border: 2px solid #fff;
+        height: 440px;
+        margin-right: 15px;
+        float: left;
+    }
+
+    .border-frame-slider .content-frame {
+        width: 440px;
+        height: 440px;
+        border: 2px solid #fff;
+        float: left;
+        text-align: center;
+        color: #fff;
+    }
+
+        .border-frame-slider .content-frame h4.border-style::after {
+            border-color:white;
+        }
+        
+        
+        .border-frame-slider #arrows {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            z-index: 991;
+        }
+
+        .border-frame-slider #arrows .slick-next {
+            right: 30px;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .border-frame-slider #arrows .slick-prev {
+            left: 30px;
+            position: absolute;
+            cursor: pointer;
+        }
+
+    .border-frame-slider .content-frame h4 {
+        letter-spacing: 2px;
+        position: relative;
+        display: inline-block;
+        margin-bottom:40px;
+    }
+
+        .border-frame-slider .content-frame h4::after {
+
+        }
+
+    .border-frame-slider .content-frame h2 {
+        letter-spacing: 4px;
+        font-size: 60px;
+        max-width: 385px;
+        margin: 0 auto;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+
+    .border-frame-slider .content-frame p {
+        max-width: 385px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        color:#fff;
+        text-align:center;
+    }
+    .border-frame-slider .separator {
+        margin-bottom:30px;
+        width:36px;
+    }
+    .border-frame-slider .absoulute-wrap 
+    {
+        height:600px;
+    }
+    
+    .border-frame-slider .slick-dots {
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+        .border-frame-slider .slick-dots button {
+            background: #ccc;
+            border: 0;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            cursor: pointer;
+            padding: 0;
+            display: block;
+        }
+
+        .border-frame-slider .slick-dots li {
+            width: 8px;
+            height: 8px;
+            display: inline-block;
+            margin-left: 15px;
+            margin-right: 15px;
+            overflow: hidden;
+            outline: 0;
+        }
+
+            .border-frame-slider .slick-dots li button {
+                width: 4px;
+                height: 4px;
+                margin: 0 auto;
+            }
+
+            .border-frame-slider .slick-dots li.slick-active {
+                outline: 0;
+                position: relative;
+                top: -2px;
+            }
+
+                .border-frame-slider .slick-dots li.slick-active button {
+                    border: 2px solid #fff;
+                    background: none;
+                    width: 8px;
+                    height: 8px;
+                    outline: 0;
+                    cursor: pointer;
+                }
+
+            .border-frame-slider .slick-dots li:first-child {
+                margin-left: 0;
+            }
+
+            .border-frame-slider .slick-dots li:last-child {
+                margin-right: 0;
+            }

@@ -1,0 +1,119 @@
+
+
+/*explore events*/
+.sec-wrap {
+    padding: 50px 0px;
+    position: relative;
+    width: 100%;
+}
+
+.content-slider-with-box 
+{
+    height:100%;
+}
+.content-slider-box .gray-box h4.border-style::after {
+    border-bottom: 2px solid #fff;
+}
+
+    .content-slider-with-box .content {
+        text-align: center;
+        position: relative;
+        height: 100%;
+    }
+
+    .content-slider-with-box h4.border-style {
+        margin-bottom: 60px;
+    }
+
+    .content-slider-with-box .gray-box h4.border-style {
+        margin-bottom: 50px;
+    }
+
+    .content-slider-with-box .content h2 {
+        display: block;
+        font-size: 60px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+        .content-slider-with-box .content h2 span {
+            display: block;
+            text-align: center;
+        }
+
+    .content-slider-with-box .content p {
+        font-size: 16px;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+
+    .content-slider-with-box .content a {
+        font-size: 16px;
+        color: #a86544;
+        font-weight: 500;
+        padding-top: 75px;
+        display: inline-block;
+    }
+
+
+
+    .content-slider-with-box .event-slider .slideshow {
+        position: relative;
+        z-index: 1;
+        padding-left: 94px;
+        padding-top: 125px;
+    }
+
+
+
+.evt-slider {
+    position: relative;
+    height: 550px;
+}
+.offer-slidr 
+{
+    padding:0 25px;
+}
+    .offer-slidr .ornge-arrws 
+    {
+        right:44px;
+    }
+    
+    .content-slider-with-box .evt-slider img {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+.content-slider-with-box .slick-dots li.slick-active button {
+    border-radius:0;
+}
+
+.content-slider-with-box .event-slider .gray-box {
+    width: 280px;
+    height: 280px;
+    background-color: #a3a6a0;
+    position: absolute;
+    top: 165px;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .content-slider-with-box .event-slider .gray-box p {
+        font-size: 30px;
+        line-height: 1.03;
+        letter-spacing: 2.3px;
+        font-family: 'alternategotno3dregular';
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+.content-slider-box .ornge-arrws {
+    right: 165px;
+    bottom: -32px;
+}

@@ -1,0 +1,72 @@
+/*******overlay*******/
+.content-overlay 
+{
+    width:1170px;
+}
+.banner-with-image .content-overlay.one-line-heading h1 {
+    margin-top:5px;
+}
+    
+    .label-plus-anchor label {
+        line-height: 1.19;
+        letter-spacing: 0.3px;
+        color: #fff;
+        font-family: 'Helvetica Neue LT Std';
+        font-size: 16px;
+        position: absolute;
+    }
+
+/**********************/
+.offer-2-col {
+    padding: 50px 0px;
+    position:relative;
+}
+    .offer-2-col .content {
+        position: relative;
+        height: 480px;
+        max-width:465px;
+    }
+    .offer-2-col .content h2 {
+        font-size: 60px;
+        line-height: 0.8;
+        letter-spacing: 2px;
+        max-width:350px;
+    }
+    .offer-2-col .icon-ul {
+        padding-top: 60px;
+    }
+        .offer-2-col .icon-ul li {
+            padding-right: 50px;
+        }
+    .offer-2-col .content p {
+        max-width: 90%;
+        line-height: 1.19;
+        letter-spacing: 0.3px;
+        text-align: left;
+        color: #4a4a4a;
+    }
+    .offer-2-col .cd-with-slider {
+        position: relative;
+    }
+    .offer-2-col .link-number 
+    {
+        padding:15px 0px;
+    }
+        .offer-2-col .link-number a {
+            font-size: 13px;
+            line-height: 2.15;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-right: 25px;
+        }
+    .offer-2-col .link-number a:nth-child(2) 
+    {
+        margin-right:0;
+    }
+    .offer-2-col .view-tick-link 
+    {
+        position:absolute;
+        bottom:0;
+        z-index:9;
+    }
+    /*****************************************/

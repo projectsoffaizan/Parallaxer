@@ -1,0 +1,149 @@
+
+
+
+.two-card-with-content {
+    position: relative;
+    height:100%;
+}
+
+    .two-card-with-content .slider {
+        width: 100%;
+        float: left;
+    }
+
+        .two-card-with-content .slider .item {
+            width: 100%;
+            height: 560px;
+            position: relative;
+            z-index: 1;
+            padding: 15px;
+        }
+
+    .two-card-with-content .border-inside {
+        border: 1px solid #fff;
+        z-index: 99;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-fluid-custom {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+.room-desc-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.room-desc-inside {
+    width: 420px;
+    text-align: center;
+    position: relative;
+}
+
+    .room-desc-inside h4.border-style {
+        margin-bottom: 40px;
+    }
+
+        .room-desc-inside h4.border-style::after {
+        }
+
+    .room-desc-inside h2 {
+        font-size: 60px;
+        line-height: 1;
+        letter-spacing: 4px;
+        text-align: center;
+        color: #191a22;
+    }
+
+    .room-desc-inside p {
+        font-size: 16px;
+        position: relative;
+    }
+
+        .room-desc-inside p::after {
+            content: "";
+            border-bottom: 2px solid #191a22;
+            position: absolute;
+            width: 40px;
+            text-align: center;
+            left: 0;
+            margin: auto;
+            bottom: -45px;
+            right: 0;
+            height: 2px;
+        }
+
+.room-desc-wrap .content-relative {
+    position: relative;
+}
+
+.room-desc-inside a {
+    font-size: 16px;
+    color: #a86544;
+    font-weight: 500;
+    padding-top: 75px;
+    display: inline-block;
+}
+
+
+
+.gray-box-with-det {
+    width: 280px;
+    height: 280px;
+    background-color: #a3a6a0;
+    position: absolute;
+    top: 150px;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+    .gray-box-with-det .date-area {
+        width: 60px;
+        height: 60px;
+        border: 1px solid #fff;
+        margin: 0 auto;
+        font-family: 'alternategotno3dregular';
+        text-transform: uppercase;
+        font-size: 22px;
+        padding-top: 8px;
+    }
+
+.gray-box-with-det .date-area .date {
+    display: block;
+    text-align: center;
+    line-height: 18px;
+}
+
+        .gray-box-with-det .date-area .month {
+            line-height: 18px;
+        }
+
+    .gray-box-with-det h3 {
+        font-size: 22px;
+        font-weight: normal;
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .gray-box-with-det p {
+        font-weight: normal;
+        padding-top: 15px;
+        margin-bottom: 0;
+        color:#fff;
+    }
+
+    .gray-box-with-det a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        color: #fff;
+        margin-bottom: 0;
+        padding-top: 15px;
+        display: inline-block;
+    }

@@ -1,0 +1,2170 @@
+/* OL */
+
+
+html.modal-active, .modal-active body, html.modal-active .scroller-con {
+    overflow: hidden !important;
+    height: 100%;
+}
+
+html.modal-active .scroller-con.skin_apple .scrollbary {
+    display: none;
+
+}
+
+.link-with-tick:hover .tick-link, .link-with-tick:hover .inside-box-link {
+    color: #fff;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.link-with-tick:hover .tick-link:before {
+    filter: brightness(0) invert(1);
+    -webkit-transition: .40s ease-in-out;
+    -moz-transition: .40s ease-in-out;
+    -o-transition: .40s ease-in-out;
+    transition: .40s ease-in-out;
+}
+
+.white-more-tick a.view-tick-link:before {
+    background-image: url(../img/combined-shape.svg);
+}
+
+.arrow-glow-slider * {
+    max-height: 450px !important;
+    height: auto;
+}
+
+.red-strip {
+
+    display: none;
+}
+
+.arrow-glow-slider {
+    max-height: 450px;
+}
+
+.arrow-glow-slider:before {
+    position: absolute;
+
+    left: 0;
+    width: 225px;
+    height: 100%;
+
+    content: "";
+    background: url(../img/bitmap-red.jpg) no-repeat bottom center;
+    display: block;
+    overflow: hidden;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.border-frame-slider .slider {
+
+    max-width: 540px;
+}
+
+.mbl-nav-btn {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background: none;
+    z-index: 40;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.nav-icon3 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 0px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-icon3 span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 40px;
+    background: #fff;
+    border-radius: 0;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.nav-icon3 span:nth-child(1) {
+    top: 0px;
+}
+
+.nav-icon3 span:nth-child(2), .nav-icon3 span:nth-child(3) {
+    top: 10px;
+}
+
+.nav-icon3 span:nth-child(4) {
+    top: 20px;
+}
+
+.nav-icon3.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.nav-icon3.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.nav-icon3.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.nav-icon3.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.btn-heading-right {
+
+    transition: all .5s ease;
+}
+
+#global-nav.white .main-navigation * {
+    color: #000
+}
+
+.white-layout {
+    padding-top: 150px;
+}
+
+.white-layout {
+    margin-top: 160px;
+    padding: 70px 0;
+    text-align: left;
+}
+
+.white-layout .content-section {
+    padding-bottom: 50px;
+
+}
+
+.content-section p {
+
+    font-size: 16px;
+}
+
+.white-layout .content-section p {
+    margin-bottom: 10px;
+}
+
+.white-layout .content-slider-with-box .content, .white-layout .content-slider-with-box .content h2 span {
+    text-align: inherit;
+    display: inline-block;
+}
+
+.content-slider-with-box .content h2 {
+    display: block;
+    font-size: 60px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.modal-content {
+    padding: 95px 97px;
+    border-radius: 0;
+
+}
+
+.modal-body {
+    max-height: 350px;
+    overflow: auto;
+
+}
+
+.modal-header .close {
+    position: absolute;
+    font-size: 80px;
+    right: 38px;
+    top: 38px;
+    font-weight: 300;
+    color: #171a21;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 1150px;
+    max-height: 50%;
+    max-width: 100%;
+    max-width: 80%;
+}
+
+.modal-header {
+    border-bottom: 0;
+    padding: 0;
+    display: block;
+}
+
+.modal h2 {
+    display: block;
+    font-size: 60px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.modal .img-top {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 27px;
+}
+
+.arrow-glow-wrap .heading.black {
+    position: absolute;
+    top: 35px;
+    color: #fff;
+    z-index: 15;
+    width: 50%;
+    left: 25px;
+    max-width: 400px;
+}
+
+/* tablet landscape */
+@media screen and (max-width: 1024px) {
+    .padding-top-100 {
+        padding-top: 50px !important;
+    }
+
+    html {
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .zb-content h2 {
+        line-height: 42px;
+        font-size: 42px;
+    }
+
+    .content-overlay {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .content-overlay .book-now-header {
+        margin: 20px auto 0;
+    }
+
+    .content-overlay h1 {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .grid-bottom-heading {
+        width: 1024px;
+        z-index: 20;
+        left: 0;
+    }
+
+    .grid-bottom-heading h2 {
+        font-size: 72px;
+    }
+
+    #global-nav .relative-wrap {
+        margin: 0 -20px;
+        width: auto;
+    }
+
+    .main-navigation ul li {
+
+        margin-right: 25px;
+    }
+
+    #global-nav.scrolled-nav .small-logo {
+        max-width: 180px;
+    }
+
+    #global-nav.scrolled-nav .nav-icon3 span {
+        background: #000;
+    }
+
+    .hotels-desc .description {
+        width: calc(100% - 165px);
+    }
+
+    .blue-with-slider .sm-slider {
+        margin: 0 15px;
+    }
+
+    .frame-with-imgs .heading-area {
+        padding-left: 40px;
+    }
+
+    .arrow-glow-wrap .custom-arrows {
+        right: 20px;
+    }
+
+    .world-slider .custom-arrows {
+        right: 120px;
+    }
+
+    .signup-plus-slider .subscribe-form h2 {
+        font-size: 42px;
+    }
+
+    .offer-slidr {
+        height: auto;
+    }
+
+    .offer-slidr .dzsparallaxer:not(.mode-oneelement) {
+        height: 350px;
+    }
+
+    .offer-slidr .dzsparallaxer:not(.mode-oneelement) .dzsparallaxer--target {
+        height: 400px !important;
+    }
+
+    .arrow-glow-slider .tick a {
+        top: 90px;
+        right: 0;
+    }
+
+    .arrow-glow-slider .dzsparallaxer {
+        width: 500px;
+    }
+
+    .arrow-glow-wrap .custom-arrows {
+        right: 230px;
+        bottom: 10px;
+    }
+
+    .arrow-glow-slider .small-frame .dzsparallaxer {
+        height: 310px;
+        top: 30px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 992px) {
+
+    #global-nav.scrolled-nav {
+        top: 0;
+        position: fixed;
+        height: 52px;
+    }
+
+    #global-nav.scrolled-nav .big-logo {
+        display: block !important;
+    }
+
+    #global-nav.scrolled-nav .small-logo {
+        display: none !important;
+    }
+
+    #global-nav.scrolled-nav .big-logo {
+        width: 46px;
+        top: 5px;
+    }
+
+    #global-nav.scrolled-nav .mbl-nav-btn {
+        top: 15px;
+    }
+
+    #global-nav.scrolled-nav .btn-heading-right {
+        display: block;
+        margin: 0;
+        padding: 0;
+        left: 50%;
+        right: auto;
+        margin-left: -60px;
+        top: 0px;
+    }
+
+    #global-nav.scrolled-nav .btn-heading-right .book-now-header {
+        /*background: #a3a6a0*/
+    }
+
+    #global-nav .nav-icon3.open span {
+        background: #fff !important;
+    }
+
+    .active-nav .big-logo {
+        width: 80px !important;
+        top: 20px !important;
+        left: 0;
+    }
+
+    .active-nav #global-nav.scrolled-nav {
+        height: 0
+    }
+
+    .active-nav #global-nav.scrolled-nav .btn-heading-right {
+        position: fixed;
+        bottom: 100px;
+        top: auto;
+        left: 0;
+        margin-left: 80px;
+        transition: all .5s ease;
+        display: none;
+    }
+
+    .active-nav #global-nav .scroll-btn.btn-heading-right {
+        position: static;
+        transition: all .5s ease;
+        clear: both;
+        float: left;
+        display: block;
+        margin: 20px 65px;
+    }
+
+    .active-nav #global-nav .scroll-btn.btn-heading-right .book-now-header {
+        position: static;
+        transition: all .5s ease;
+        clear: both;
+        float: left;
+
+    }
+
+    #global-nav.scrolled-nav .main-navigation ul li:hover:after {
+        background: #fff;
+    }
+
+    .scroll-logo {
+        z-index: 40
+    }
+
+    .active-nav, .active-nav body, .active-nav, .active-nav .mwrap-wrapper {
+        overflow: hidden
+    }
+
+    .main-navigation {
+        position: fixed;
+        text-align: right;
+        background: rgba(8, 8, 8, 0.9);
+        display: inline-block;
+        float: right;
+
+        top: 0;
+        margin: 0;
+        width: 100%;
+        right: -200%;
+        transition: all .5s ease;
+        height: 100%;
+        padding: 0;
+        overflow: visible;
+    }
+
+    .main-navigation::before {
+        z-index: -1;
+        display: block;
+        position: absolute;
+        content: ' ';
+    }
+
+    .main-navigation.active {
+        transition: all .5s ease;
+        right: 0;
+
+    }
+
+    .main-navigation ul li {
+        display: block;
+        float: left;
+        clear: both;
+        text-align: left;
+        margin: 0;
+        padding: 10px 20px;
+
+    }
+
+    .main-navigation ul li a {
+        font-size: 24px;
+        color: #fff !important;
+        line-height: 28px;
+
+    }
+
+    #global-nav.scrolled-nav .main-navigation ul, .main-navigation ul {
+        list-style: none;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 150px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    h4.border-style {
+        font-size: 14px;
+    }
+
+    h4.border-style::after {
+        padding-bottom: 10px;
+    }
+
+    .big-logo {
+        width: 80px;
+        top: 20px;
+    }
+
+    .big-logo img {
+        width: 100%;
+    }
+
+    .restaurants-list h2 {
+        margin: 0;
+        padding: 0 0 20px;
+    }
+
+    .border-frame-slider .absoulute-wrap {
+        height: auto;
+    }
+
+    #global-nav .relative-wrap {
+        margin: 0 0;
+    }
+
+    .video-wrap, .banner-with-image, .banner-with-image .dzsparallaxer:not(.mode-oneelement) {
+        height: 60vh !important;
+    }
+
+    .content-overlay h1 {
+        font-size: 28px;
+        line-height: 30px;
+        letter-spacing: 20px;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .mbl-nav-btn {
+        display: block;
+
+    }
+
+    .active-nav #global-nav.scrolled-nav .mbl-nav-btn {
+        top: 20px;
+    }
+
+    .btn-heading-right {
+        display: none
+    }
+
+    #global-nav {
+        position: absolute;
+    }
+
+    .sec-wrap {
+        padding: 20px 0 0 !important;
+    }
+
+    .content-slider-with-box .content h2 {
+
+        font-size: 37px;
+        line-height: 35px;
+    }
+
+    .content-slider-with-box .content {
+        margin: 0 20px;
+    }
+
+    .content-slider-with-box .evt-slider {
+        margin: 40px -15px 165px;
+
+    }
+
+    .content-slider-with-box h4.border-style {
+        margin-bottom: 25px;
+    }
+
+    .content-slider-with-box .evt-slider {
+        height: 425px;
+    }
+
+    .slick-list {
+
+        overflow: visible;
+
+    }
+
+    .slick-dots {
+        text-align: center;
+        position: static;
+
+    }
+
+    .content-slider-with-box .evt-slider .slick-dots {
+        text-align: center;
+        position: static;
+        margin: 107px 0 0;
+    }
+
+    .slick-dots li {
+
+        margin-left: 30px;
+
+    }
+
+    .slick-dots li.slick-active button {
+        border-radius: 0;
+    }
+
+    .content-slider-with-box .dzsparallaxer:not(.mode-oneelement) {
+        max-height: 425px;
+    }
+
+    .banner-minus-slider .dzsparallaxer:not(.mode-oneelement) {
+        max-height: 425px;
+    }
+
+    .latest-offers-subscription .dzsparallaxer:not(.mode-oneelement) {
+        max-height: 488px;
+    }
+
+    .latest-offers-subscription .dzsparallaxer:not(.mode-oneelement) .dzsparallaxer--target {
+        height: 800px !important;
+
+    }
+
+    .dzsparallaxer {
+        height: auto;
+        width: 100% !important;
+    }
+
+    .ornge-arrws {
+        display: none
+    }
+
+    .content-slider-with-box .event-slider .gray-box, .content-slider-with-box .gray-box-with-det {
+        margin: 0;
+        top: auto;
+        bottom: -85px;
+        z-index: 50;
+        padding: 33px 20px;
+        width: 300px;
+        height: 300px;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .content-slider-with-box .gray-box h4.border-style {
+        margin-bottom: 33px;
+    }
+
+    .content-slider-with-box .event-slider .gray-box p {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .border-frame-slider {
+        height: auto;
+    }
+
+    .border-frame-slider .dzsparallaxer:not(.mode-oneelement) {
+        max-height: 475px;
+    }
+
+    .border-frame-slider .box-border, .border-frame-slider .content-frame {
+
+        height: 350px;
+    }
+
+    .border-frame-slider #arrows {
+
+        display: none;
+    }
+
+    .border-frame-slider .Aligner-item {
+        padding: 0 20px;
+    }
+
+    .border-frame-slider .slider {
+        width: 100%;
+        padding: 50px 20px
+    }
+
+    .border-frame-slider .box-border {
+        width: 45px;
+    }
+
+    .border-frame-slider .content-frame {
+        width: calc(100% - 60px)
+    }
+
+    .border-frame-slider .content-frame h2 {
+        font-size: 33px;
+        line-height: 33px;
+    }
+
+    .two-card-with-content .room-desc-wrap {
+        padding: 30px;
+    }
+
+    .room-desc-inside h4.border-style {
+        margin-bottom: 25px;
+    }
+
+    .room-desc-inside p::after {
+        bottom: -30px;
+
+    }
+
+    .room-desc-inside a {
+        padding-top: 40px;
+    }
+
+    .two-card-with-content .slider .item.background {
+        height: 360px;
+    }
+
+    .room-desc-inside h2, .alsf-rm-4-8 .Aligner h2, .alsf-fc-3-8 .Aligner h2, .alsf-offers-4-8 .Aligner h2, .alsf-rm-3-8 .Aligner h2 {
+        font-size: 33px;
+
+        line-height: 33px;
+        letter-spacing: 4px;
+        margin: 0;
+        padding: 0px 50px 20px;
+    }
+
+    .subscribe-form h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .latest-offer-wrap {
+        padding: 0 0 100px;
+    }
+
+    .hotels-desc .row {
+
+        display: block;
+
+    }
+
+    .hotels-desc {
+        overflow: hidden;
+        padding: 40px 20px 0px;
+    }
+
+    .hotels-desc .image {
+        width: 60px;
+    }
+
+    .hotels-desc .image img {
+        width: 100%;
+    }
+
+    .hotels-desc .description {
+        width: calc(100% - 60px);
+    }
+
+    .hotels-desc .description .headings {
+        height: 75px;
+    }
+
+    .hotels-desc .description .desc {
+        width: calc(100% + 60px);
+        margin-left: -75px;
+    }
+
+    .hotels-desc .description p {
+        height: auto
+    }
+
+    .hotels-desc .col {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .alsf-fc-slider .item, .alsf-fc-slider {
+        height: 450px;
+        overflow: hidden;
+    }
+
+    .alsf-2-col-content {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .alsf-2-col-content p {
+        max-width: 100%;
+        padding: 10px 0px 0;
+    }
+
+    .alsf-2-col-content h2, .alsf-1-col-content h2 {
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .amenties-section .amenties-ul {
+        display: block;
+        height: auto;
+
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .amenties-section .amenties-ul li {
+        width: 50%;
+        padding: 20px 0;
+        float: left;
+        height: 130px;
+        margin: 0;
+    }
+
+    .amenties-section {
+        background-color: #eee;
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 0px;
+    }
+
+    .alsf-rm-slider, .alsf-fc-slider, .alsf-rst-slider {
+        padding: 0px 0;
+        position: relative;
+        height: 570px;
+        width: auto;
+        margin: 0 -15px;
+    }
+
+    .item {
+        /*min-height: 420px;*/
+
+    }
+
+    .alsf-2-col-content .special-family, .alsf-1-col-content .special-family {
+
+        display: block;
+    }
+
+    .restaurants-list .view {
+
+        height: 450px;
+
+    }
+
+    .book-table-slider .slick-dots, .alsf-rm-slider .slick-dots, .alsf-rst-slider .slick-dots, .alsf-fc-slider .slick-dots {
+        position: absolute;
+        bottom: 28px;
+        z-index: 50;
+    }
+
+    .alsf-rm-slider, .alsf-rm-slider .dzsparallaxer:not(.mode-oneelement) {
+        /*height: 520px !important;*/
+    }
+
+    .alsf-fc-slider, .alsf-fc-slider .dzsparallaxer:not(.mode-oneelement) {
+        /*height: 450px !important;*/
+    }
+
+    /*ZH MINI */
+    .sitemap-overlay {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .rm-three-cards .card-wrap .background-card, .rm-three-cards .card-wrap {
+        height: 400px;
+
+    }
+
+    .arrow-glow-slider .content {
+
+        width: 100%;
+    }
+
+    .arrow-glow-slider .slick-dots {
+        padding-left: 0;
+    }
+
+    .offer-2-col .icon-ul {
+        padding-top: 20px;
+    }
+
+    .room-fw-slider, .room-fw-slider .item, .room-fw-slider .dzsparallaxer:not(.mode-oneelement) {
+        max-height: 400px;
+    }
+
+    .room-fw-slider .custom-arrows {
+
+        bottom: -25px;
+
+    }
+
+    .nav.mini-nav.white .mbl-nav-btn .nav-icon3 span {
+        background: #000;
+    }
+
+    .nav.mini-nav.white .mbl-nav-btn .nav-icon3 span {
+        background: #000;
+
+    }
+
+    .Aligner-mbl {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: -o-flex;
+        display: flex;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+        height: 100%;
+    }
+}
+
+/* tablet portrait*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .content-slider-with-box .event-slider .gray-box, .content-slider-with-box .gray-box-with-det {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .subscribe-form h2 {
+        font-size: 42px;
+        text-align: left;
+    }
+
+    .latest-subscription-form input {
+        min-width: 280px;
+    }
+
+    .restaurants-list .mask p {
+        width: 100px;
+    }
+
+    .two-card-with-content .room-desc-wrap {
+        padding: 0;
+    }
+
+    .hotels-desc .col:nth-child(2n) .column-wrap {
+        float: left;
+    }
+
+    .grid-wrap .greenbox {
+        padding: 60px 30px;
+    }
+
+    .full-width-grid .left-div .light-gray-box {
+        right: 60px;
+    }
+
+    .full-width-grid .right-div .light-gray-box {
+        left: 60px;
+    }
+
+    .hotels-desc .col {
+        float: left;
+        width: 50%;
+    }
+
+    .alsf-rm-3-8 .content a.book-now-header {
+        letter-spacing: 1.5px;
+    }
+
+    .content-overlay {
+        width: 88%;
+    }
+
+    .content-overlay h1 {
+        font-size: 70px;
+        line-height: 70px;
+        padding-left: 15px;
+    }
+
+    .zhm-layout-grid-guide .icon-ul li {
+        padding-right: 30px;
+    }
+
+    .zhm-layout-grid-guide .view-tick-link {
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+        font-size: 13px;
+    }
+
+    .world-slider .slick-dots {
+        text-align: left;
+    }
+
+    .world-slider .item, .world-slider .slick-dots {
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    .red-strip .bg {
+
+        height: 400px;
+        background-position: bottom !important;
+    }
+
+    .arrow-glow-wrap {
+        padding-top: 0;
+        height: 450px;
+
+    }
+
+    .arrow-glow-slider .small-frame {
+        display: none;
+    }
+
+    .arrow-glow-slider .slick-list {
+        height: 470px;
+    }
+
+    .arrow-glow-slider .content h2 {
+        position: absolute;
+        top: -100px;
+        color: #000;
+    }
+
+    .red-strip {
+        bottom: 0;
+    }
+
+    .arrow-glow-slider .slick-list {
+    }
+
+    .restaurants-list .column {
+        width: 50%;
+    }
+
+    .container-fluid-custom .fst {
+        padding-right: 0;
+    }
+
+    .container-fluid-custom .snd {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .container-fluid-custom .thd {
+        padding-left: 0px;
+    }
+
+    .offer-slidr .dzsparallaxer:not(.mode-oneelement) {
+        height: 350px !important;
+    }
+
+    .arrow-glow-slider:before {
+        margin: 0 0 0;
+        height: 450px;
+    }
+
+    .arrow-glow-slider .content h2 {
+        top: -150px;
+        left: -25px;
+    }
+
+    .view-room-section {
+        padding: 80px 0px 70px;
+
+    }
+
+    .arrow-glow-wrap .custom-arrows {
+        right: 20px;
+        bottom: -25px;
+    }
+
+    .arrow-glow-slider .tick a {
+        top: 120px;
+        right: 0;
+    }
+
+    .contact-column .column {
+        width: 33.3%;
+        padding-right: 20px;
+    }
+
+    .contact-us-sec .contact-column h3 {
+        font-size: 24px;
+
+    }
+
+    .view-room-section .floating-tick {
+        bottom: -60px;
+    }
+}
+
+/* only mobile devices*/
+@media screen and (max-width: 767px) {
+
+    .alsf-1-col-content, .alsf-2-col-content {
+        background-color: rgb(238, 238, 238);
+    }
+
+    .hotels-desc .description h2 {
+
+        line-height: 24px;
+    }
+
+    .row.reverse {
+        /* Setup Flexbox */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        /* Reverse Column Order */
+        -webkit-flex-flow: column-reverse;
+        flex-flow: column-reverse;
+    }
+
+    .two-card-with-content .slideshow-left {
+        display: none;
+    }
+
+    .hotels-desc .col:nth-child(2n) .column-wrap {
+        float: left;
+    }
+
+    .restaurants-list .view > .mask {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .footer-links, .social-menu-footer {
+        display: block;
+        float: none;
+        clear: both;
+        overflow: hidden;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-links li {
+        display: block;
+        float: none;
+        clear: both;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .social-menu-footer li {
+        display: inline-block;
+        float: none;
+    }
+
+    #zh-footer {
+        padding: 30px 0 60px;
+        text-align: center;
+        position: relative;
+    }
+
+    .zh-footer-span {
+        margin: 30px 0;
+    }
+
+    .copyright {
+        font-size: 13px;
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    #zh-footer [class*='col-'] {
+        position: static;
+
+    }
+
+    .alsf-offers-4-8 .Aligner h4.border-style,
+    .alsf-fc-3-8 h4.border-style,
+    .content-slider-with-box h4.border-style {
+        margin-bottom: 30px;
+    }
+
+    .sec-wrap, .alsf-offers-4-8, .alsf-fc-3-8, .alsf-rm-4-8, .alsf-rm-3-8 {
+        padding: 0 0 !important;
+    }
+
+    .alsf-1-col-content, .sec-wrap .content, .alsf-offers-4-8 .content, .alsf-fc-3-8 .content, .alsf-rm-4-8 .content, .alsf-rm-3-8 .content {
+        padding: 30px 0 30px;
+    }
+
+    .zb-content {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .alsf-2-col-content {
+        padding: 30px 0
+    }
+
+    .alsf-rm-3-8 .Aligner {
+        height: auto;
+    }
+
+    .alsf-1-col-content p {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .full-width-grid .left-div .light-gray-box {
+        bottom: 15px;
+        left: -15px;
+        right: auto;
+        width: 260px;
+        height: 260px;
+        padding: 0 20px;
+    }
+
+    .full-width-grid .right-div .light-gray-box {
+        top: 15px;
+        right: -15px;
+        left: auto;
+        width: 260px;
+        height: 260px;
+        padding: 0 20px;
+    }
+
+    .full-width-grid {
+        padding: 0;
+    }
+
+    .zb-content h2 {
+        line-height: normal;
+        font-size: 36px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        margin-bottom: 30px;
+    }
+
+    .slick-slider, .slick-slider:visited, .slick-slider:focus {
+        overflow: hidden;
+    }
+
+    .alsf-fc-slider .slider, .alsf-fc-slider {
+        height: 450px;
+    }
+
+    .room-desc-inside h2, .alsf-rm-4-8 .Aligner h2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .grid-wrap .greenbox, .grid-wrap .grid-left-img, .full-width-grid .fw-grid-wrap {
+        margin-bottom: 30px;
+
+    }
+
+    .grid-wrap .grid-right-img, .grid-wrap .grid-left-img,
+    .full-width-grid .dzsparallaxer:not(.mode-oneelement) {
+        height: 450px !important;
+    }
+
+    .fixed-width-grid {
+        padding-bottom: 30px;
+    }
+
+    .restaurants-list {
+        margin-top: 37px;
+
+    }
+
+    .content-overlay h1 {
+        padding-left: 15px;
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 0;
+    }
+
+    .alsf-rm-3-8 .Aligner p {
+        padding-bottom: 30px;
+    }
+
+    .alsf-rm-slider, .alsf-rm-slider .dzsparallaxer:not(.mode-oneelement) {
+        height: 450px !important;
+        margin-bottom: 70px;
+    }
+
+    .content .schedule {
+        display: block !important;
+    }
+
+    .content .circle {
+        display: none
+    }
+
+    .content .schedule label {
+        display: block !important;
+        margin-bottom: 8px !important;
+    }
+
+    .icon-zb-content .icon-ul {
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icon-zb-content .icon-ul li {
+        margin: 0 10px 10px 10px;
+        display: inline-block;
+        width: 80px;
+    }
+
+    .icon-zb-content .icon-ul li span.txt {
+        max-width: 80px;
+    }
+
+    .grid-bottom-heading {
+        width: 100%;
+    }
+
+    .grid-bottom-heading h2 {
+        line-height: 70px;
+        font-size: 70px;
+        letter-spacing: 15px;
+    }
+
+    /*ZH MINI */
+    .sitemap-center-wrap .sitemap-links {
+        display: block;
+        clear: both;
+        float: none;
+
+        width: 33.3%;
+    }
+
+    .sitemap-center-wrap .sitemap-links ul li {
+        width: auto;
+        padding-right: 10px;
+        line-height: 20px;
+    }
+
+    .sitemap-center-wrap .sitemap-links ul li a {
+        font-size: 18px;
+    }
+
+    .full-width-slider {
+        padding-right: 0;
+        padding-left: 0;
+
+    }
+
+    .rm-three-cards {
+
+        padding: 0;
+    }
+
+    .room-fw-slider {
+        margin: 0 -15px;
+        max-height: 400px;
+    }
+
+    .room-fw-slider .item {
+        max-height: 400px;
+    }
+
+    .rm-three-cards .card-wrap .background-card, .rm-three-cards .card-wrap {
+        display: block;
+        height: auto;
+    }
+
+    .rm-three-cards .card-wrap .background-card {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .room-two-column .content-with-icons h2, .zhm-layout-grid-guide .content h2, .offer-2-col .content h2, .card-with-4-8 .content h2 {
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: 1.2px;
+        margin: 0 auto;
+        padding: 0px 20px 10px
+    }
+
+    .room-two-column .content-with-icons h3, .zhm-layout-grid-guide .content h3, .card-with-4-8 .content h3 {
+        font-size: 22px;
+        line-height: 22px;
+        letter-spacing: 0.7px;
+    }
+
+    .content-with-icons {
+        text-align: center
+    }
+
+    .icon-ul li {
+        padding: 0 !important;
+        margin: 0 auto;
+    }
+
+    .zhm-layout-grid-guide [class*='col-'] {
+        position: static;
+
+    }
+
+    .zhm-layout-grid-guide {
+        padding: 0 0 30px !important;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .zhm-layout-grid-guide .content {
+        padding: 30px 0 30px;
+        text-align: center;
+        height: auto;
+        position: static;
+    }
+
+    .zhm-layout-grid-guide .content p {
+        max-width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .zhm-layout-grid-guide .icon-ul {
+        padding-top: 20px;
+    }
+
+    .zhm-layout-grid-guide .view-tick-link {
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        font-size: 14px;
+        width: 240px;
+        margin-left: -120px;
+        left: 50%;
+    }
+
+    .banner-with-image .dzsparallaxer:not(.mode-oneelement) .dzsparallaxer--target {
+        position: relative;
+        max-height: 90vh;
+    }
+
+    .banner-minus-slider {
+        padding-top: 0;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .world-slider .slick-dots {
+        padding: 0;
+    }
+
+    .world-slider .brown-box, .world-slider .heading h2 {
+        display: block;
+        position: static;
+        margin: 40px auto 10px;
+        clear: both;
+        text-align: left;
+    }
+
+    .world-slider .heading h2, .contact-us-sec .main h2, .contact-us-sec .contact-form h2 {
+        font-size: 36px;
+
+        line-height: 37px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .contact-us-sec .contact-form {
+        padding: 0;
+    }
+
+    .map-padding .dzsparallaxer:not(.mode-oneelement) {
+
+        max-height: 300px;
+    }
+
+    .contact-us-sec .contact-column h3 {
+        height: auto
+    }
+
+    .contact-us-sec .contact-form form {
+
+        padding-bottom: 30px;
+        padding-top: 0;
+    }
+
+    .contact-us-sec {
+        text-align: center;
+    }
+
+    .world-slider .item {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 650px;
+    }
+
+    .world-slider .custom-arrows {
+        display: none
+    }
+
+    .world-slider .heading h2 {
+        text-align: left;
+        display: block;
+        max-width: 80%;
+    }
+
+    .arrow-glow-slider .content h2 {
+        position: absolute;
+        top: -200px;
+        color: #000
+    }
+
+    .arrow-glow-wrap {
+        height: 350px;
+        padding: 0;
+        margin-bottom: 300px;
+    }
+
+    .arrow-glow-wrap h2 {
+        padding: 0 15px;
+
+    }
+
+    .arrow-glow-slider .content h2 {
+
+        text-align: center;
+    }
+
+    .frame-with-imgs .heading-area h2 {
+        text-align: center;
+        font-size: 33px;
+    }
+
+    .rm-content-heading h2 {
+        font-size: 33px;
+        line-height: 33px;
+    }
+
+    .frame-with-imgs .heading-area h2 span {
+        position: absolute;
+        left: -5px;
+        top: -60px;
+        font-size: 100px;
+        color: rgba(163, 166, 160, 0.23);
+        text-align: center;
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        font-size: 60px;
+    }
+
+    .frame-area .column {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 30px;
+    }
+
+    .arrow-glow-slider .tick {
+        width: 100%;
+        left: -50%;
+        bottom: -50px;
+        display: inline-block;
+        text-align: center;
+        right: auto;
+        margin-left: 40px;
+        min-width: 240px;
+        margin-left: -25px;
+        padding: 0;
+    }
+
+    .frame-with-imgs .heading-area {
+
+        position: static;
+    }
+
+    .frame-with-imgs {
+
+        position: relative;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    a.view-tick-link {
+        font-size: 16px;
+
+    }
+
+    .blue-with-slider .sm-slider .item {
+        display: none;
+    }
+
+    .blue-with-slider .blue-left-heading {
+
+        left: 30px;
+    }
+
+    .grid-right-img:before {
+        left: 50px;
+        width: 10px;
+    }
+
+    .arrow-glow-slider .slick-dots, .sm-slider-wrap .slick-dots, .sm-slider-wrap .custom-arrows {
+        display: none !important;
+    }
+
+    .view-room-section .arrow-glow-slider .slick-dots {
+        display: block !important;
+        position: static;
+        padding: 0;
+        margin: 0;
+    }
+
+    .view-room-section .arrow-glow-wrap .custom-arrows {
+        display: none !important;
+
+    }
+
+    .signup-plus-slider .subscribe-form {
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .signup-plus-slider .subscribe-form .input-group {
+
+        padding-top: 10px;
+    }
+
+    .signup-plus-slider .subscribe-form h2 {
+        font-size: 40px;
+    }
+
+    .signup-plus-slider .content-slider-with-box .evt-slider .slick-dots {
+
+        margin: 0;
+    }
+
+    .content-slider-with-box .evt-slider {
+
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 0;
+    }
+
+    .blue-with-slider .dzsparallaxer {
+        height: 400px;
+    }
+
+    .white-more-tick {
+        right: auto;
+        bottom: 50px;
+        width: 260px;
+        display: block;
+        left: 50%;
+        margin-left: -110px;
+    }
+
+    .frame-with-imgs .tick {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .view-room-section {
+        margin: 0 -15px;
+        padding: 0;
+        width: auto;
+    }
+
+    .red-strip .bg {
+        width: 90px;
+        height: 400px;
+        background-color: #b61925;
+        background-position: bottom center !important;
+        background-size: 200px 400px !important;
+    }
+
+    .arrow-glow-slider .small-frame .dzsparallaxer {
+        height: 400px;
+        width: 120% !important;
+        margin: -20px 0 0 -30px;
+    }
+
+    .arrow-glow-slider {
+        max-height: 400px;
+        overflow: visible;
+    }
+
+    .arrow-glow-slider:before {
+        width: 120px;
+        top: 25px;
+        background-size: cover;
+        background-position: right;
+        height: 400px;
+
+    }
+
+    .room-two-column .content-with-icons ul {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .room-fw-slider .item {
+        max-height: 300px;
+    }
+
+    .room-fw-slider .custom-arrows, .rt-with-br-4-8 .custom-arrows {
+        display: none;
+    }
+
+    .rt-with-br-4-8 .cd-with-slider .item {
+        /* width: 100% !important;*/
+    }
+
+    .zhm-layout-grid-guide > .container, .offer-2-col > .container {
+        width: auto;
+        margin: 0 -15px;
+    }
+
+    .room-fw-slider .slick-dots {
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .offer-2-col [class*='col-'], .offer-2-col [class*='col-'] .content {
+        position: static;
+        height: auto;
+
+    }
+
+    .offer-2-col {
+        padding: 30px 15px 50px !important;
+    }
+
+    .offer-2-col {
+
+        margin-bottom: 30px;
+    }
+
+    .offer-2-col .content p {
+        max-width: 100%;
+        text-align: center
+    }
+
+    .offer-2-col .row {
+        display: block
+    }
+
+    .offer-2-col .zh-mini-slider {
+        padding: 0
+    }
+
+    .offer-2-col .zh-mini-slider .item {
+        /*width: 100% !important;*/
+        max-height: 240px;
+    }
+
+    .offer-2-col .zh-mini-slider .slick-slider .slick-dots {
+        position: absolute;
+        bottom: 28px;
+    }
+
+    .offer-2-col .zh-mini-slider .slick-slider {
+        height: 370px;
+    }
+
+    .offer-2-col .zh-mini-slider .item .dzsparallaxer:not(.mode-oneelement), .offer-2-col .zh-mini-slider .dzsparallaxer:not(.mode-oneelement) .dzsparallaxer--target {
+        height: 300px !important;
+
+    }
+
+    /*section .dzsparallaxer:not(.mode-oneelement), section .dzsparallaxer:not(.mode-oneelement) .dzsparallaxer--target {
+        height: 300px;
+    }*/
+    .offer-2-col .content {
+        text-align: center
+    }
+
+    .offer-2-col .view-tick-link {
+        font-size: 14px;
+        left: 0;
+        text-align: center;
+        width: -webkit-fill-available;
+    }
+
+    .zh-mini-slider .custom-arrows {
+        display: none;
+
+    }
+
+    a.view-tick-link img {
+        max-width: 80px;
+    }
+
+    .latest-offer-wrap {
+        padding-bottom: 0;
+    }
+
+    .restaurants-list h2 {
+        line-height: 37px;
+        font-size: 36px;
+    }
+
+    .banner-minus-section {
+        padding: 50px 0px;
+    }
+
+    .world-slider .item {
+        height: 450px;
+    }
+
+    .world-slider .brown-box {
+        margin: 0;
+        top: auto;
+        bottom: -85px;
+        z-index: 50;
+        padding: 33px 30px;
+        width: 300px;
+        height: 300px;
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+    }
+
+    .world-slider .brown-box, .world-slider .brown-box p {
+        text-align: center
+    }
+
+    .world-slider .slick-dots {
+        text-align: center;
+        position: static;
+        margin: 107px 0 0;
+    }
+
+    .offer-slidr {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .world-slider .heading h2 {
+        text-align: center;
+        max-width: 100%;
+        padding: 0;
+        width: 100%;
+
+    }
+
+    .frame-with-imgs .heading-area {
+        max-width: 80%;
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .contact-column {
+        text-align: left;
+        display: block;
+        padding: 0 0 30px;
+    }
+
+    .contact-column .column {
+        margin: 40px 0 0;
+    }
+
+    .offer-2-col .icon-ul, .card-with-4-8 .icon-ul {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .contact-us-sec .contact-column span.telephone small {
+        display: inline-block;
+        font-size: 100%;
+    }
+
+    .arrow-glow-slider .tick {
+
+        margin-left: -75px;
+
+    }
+
+    .offer-2-col .view-tick-link {
+        width: auto;
+        left: 45px;
+
+    }
+
+    .room-two-column, .full-width-slider {
+        padding: 30px 0px;
+    }
+
+    .room-two-column .rm-content {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .room-two-column .content-with-book, .rm-content-heading, .rm-content {
+        max-width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .room-two-column .content-with-book .view-tick-link {
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .rm-content-text .view-tick-link {
+
+        margin: 0 auto;
+    }
+
+    .room-two-column .content-with-book p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .arrow-glow-slider .tick a {
+        top: 20px;
+        right: -40px;
+    }
+
+    .view-room-section .arrow-glow-slider .tick {
+        margin-left: -175px;
+    }
+
+    .cd-with-slider .dzsparallaxer:not(.mode-oneelement) {
+        height: 400px !important;
+    }
+
+    .signup-with-bg .dzsparallaxer:not(.mode-oneelement) {
+        /*        max-height: 500px;*/
+    }
+
+    .card-with-4-8 .cd-with-slider .custom-arrows {
+        display: none
+    }
+
+    .card-with-4-8 .cd-with-slider, .rt-with-br-4-8 .cd-with-slider {
+        padding: 0 15px;
+    }
+
+    .view-room-section .floating-tick {
+        bottom: -280px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .restaurants-list .view {
+        height: 350px;
+    }
+
+    .restaurants-list .view, .world-slider .item, .event-slider .item {
+        height: 350px;
+    }
+
+    .world-slider .dzsparallaxer:not(.mode-oneelement), .world-slider .dzsparallaxer:not(.mode-oneelement) .dzsparallaxer--targetm
+    .event-slider .dzsparallaxer:not(.mode-oneelement), .event-slider .dzsparallaxer:not(.mode-oneelement) .dzsparallaxer--target {
+        height: 400px !important;
+    }
+
+    .slider-padding-plus {
+        padding: 30px 0;
+    }
+
+    .two-card-with-content .dzsparallaxer:not(.mode-oneelement) {
+        height: 350px !important;
+    }
+
+    .arrow-glow-wrap .heading.black {
+        position: static;
+        color: #000;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    .dzsparallaxer:not(.mode-oneelement) .dzsparallaxer--target {
+        height: inherit !important;
+        transform: none !important;
+    }
+}
+
+/* smaller mobile devices */
+@media screen and (max-width: 374px) {
+    .room-desc-inside h2 {
+
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+
+    .content-overlay h1 {
+        letter-spacing: 10px;
+    }
+
+    .alsf-rst-slider .slider {
+        height: 350px;
+    }
+
+    .alsf-rm-slider, .alsf-rm-slider .dzsparallaxer:not(.mode-oneelement),
+    .alsf-fc-slider, .alsf-fc-slider .dzsparallaxer:not(.mode-oneelement),
+    .alsf-rst-slider, .alsf-rst-slider .dzsparallaxer:not(.mode-oneelement) {
+        height: 300px !important;
+        /*margin-bottom: 70px;*/
+    }
+
+    .two-card-with-content .slider .item.background {
+        height: 319px;
+    }
+
+    .arrow-glow-slider .content h2 {
+        font-size: 44px;
+    }
+
+    .arrow-glow-slider:before {
+        z-index: 10;
+        width: 80px;
+        background-position: -35px 0px;
+    }
+
+    .arrow-glow-slider .tick {
+        margin-left: -130px;
+    }
+
+    .arrow-glow-slider .tick {
+
+        margin-left: -25px;
+
+    }
+
+    /* .border-frame-slider .Aligner-item {
+         padding: 0 5px;
+     }
+     .border-frame-slider .content-frame h2 {
+         font-size: 28px;
+         line-height: 28px;
+     }
+     .border-frame-slider .box-border, .border-frame-slider .content-frame {
+         height: 260px;
+     }
+     .border-frame-slider .content-frame p {
+         font-size: 12px;
+     }*/
+    .world-slider .brown-box, .content-slider-with-box .event-slider .gray-box, .content-slider-with-box .gray-box-with-det {
+        width: 260px;
+        height: 260px;
+    }
+
+    .frame-with-imgs .heading-area .tick a {
+        margin-left: -30px;
+    }
+
+    .offer-2-col .view-tick-link {
+        width: auto;
+        left: 45px;
+
+    }
+
+    .rm-three-cards .card-wrap .background-card {
+        height: 250px;
+        margin-top: 15px;
+    }
+
+    .cd-with-slider .dzsparallaxer:not(.mode-oneelement) {
+        height: 250px !important;
+    }
+
+    .signup-with-bg .dzsparallaxer:not(.mode-oneelement) {
+        /*max-height: 400px;*/
+    }
+
+    .offer-2-col .zh-mini-slider .slick-slider {
+        height: 310px;
+    }
+
+    .offer-2-col .zh-mini-slider .item .dzsparallaxer:not(.mode-oneelement), .offer-2-col .zh-mini-slider .dzsparallaxer:not(.mode-oneelement) .dzsparallaxer--target {
+        height: 240px !important;
+
+    }
+
+    .two-card-with-content .dzsparallaxer:not(.mode-oneelement) {
+        height: 310px !important;
+    }
+
+    .sitemap-center-wrap .sitemap-links ul li a {
+        font-size: 16px;
+    }
+
+    /*section .dzsparallaxer:not(.mode-oneelement), section .dzsparallaxer:not(.mode-oneelement) .dzsparallaxer--target {
+               height: 300px;
+    }*/
+    .offer-2-col .view-tick-link {
+        left: 15px;
+    }
+
+    .sitemap-overlay {
+        margin-top: 70px;
+    }
+
+    .sitemap-center-wrap .sitemap-links ul li {
+        margin-bottom: 5px;
+    }
+}

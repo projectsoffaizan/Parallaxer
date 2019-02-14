@@ -1,0 +1,81 @@
+
+
+
+
+
+/*************/
+.alsf-offers-4-8 
+{
+    padding:50px 0px;
+    position:relative;
+}
+.alsf-offers-4-8 .content p
+{
+    max-width:300px;
+    margin:0 auto;
+}
+    
+    .alsf-offers-4-8 .Aligner {
+        text-align: center;
+    }
+        .alsf-offers-4-8 .Aligner .Aligner-item {
+            padding-top:7px;
+        }
+        .alsf-offers-4-8 .Aligner h2 {
+            font-size: 60px;
+            padding-bottom: 10px;
+        }
+    .alsf-offers-4-8 .Aligner h4.border-style {
+        margin-bottom:40px;
+    }
+    .alsf-offers-4-8 h4.border-style::after {
+        border-bottom: 2px solid #000;
+    }
+.alsf-offers-4-8 h5{
+    line-height: 1.38;
+    letter-spacing: 1.3px;
+    font-size:12px;
+    margin-bottom:30px;
+}
+    .alsf-offers-4-8 .content a {
+        margin-bottom:30px;
+        font-size: 12px;
+        display:inline-block;
+    } 
+
+.alsf-offers-4-8 .Aligner p {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+        .alsf-offers-4-8 .Aligner .icon-ul {
+            justify-content: center;
+            padding-bottom:40px;
+        }
+            .alsf-offers-4-8 .Aligner .icon-ul li 
+            {
+                margin-right:15px;
+                margin-left:15px;
+            }
+.alsf-rm-slider {
+    padding: 0px 25px;
+    position: relative;
+    height:600px;
+}
+.alsf-offers-4-8 .content .seperator {
+    width: 40px;
+    height: 2px;
+    background-color: #191a22;
+    margin: 0 auto;
+    margin-bottom:30px;
+}
+.alsf-offers-4-8 .content a.book-now-header {
+    width: 150px;
+    height: 52px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

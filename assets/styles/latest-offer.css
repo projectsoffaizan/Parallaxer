@@ -1,0 +1,79 @@
+.latest-offers-subscription {
+    position: relative;
+    width:100%;
+}
+    .subscribe-form h2 {
+        font-size: 60px;
+        line-height: 1;
+        letter-spacing: 4px;
+        text-align: left;
+        color: #fff;
+    }
+
+        .subscribe-form h2 span {
+            display: block;
+        }
+
+            .subscribe-form h2 span.ft-span {
+                padding-left: 3px;
+            }
+
+            .subscribe-form h2 span.td-span {
+                padding-left: 3px;
+                padding-top: 6px;
+            }
+
+.latest-subscription {
+}
+
+.latest-subscription-form {
+    margin-top: 35px;
+}
+
+    .latest-subscription-form ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: black;
+    }
+
+    .latest-subscription-form ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: black;
+    }
+
+    .latest-subscription-form :-ms-input-placeholder {
+        /* IE 10+ */
+        color: black;
+    }
+
+    .latest-subscription-form :-moz-placeholder {
+        /* Firefox 18- */
+        color: black;
+    }
+
+    .latest-subscription-form .btn-input {
+        background: #c17f6c;
+        color: #fff;
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-style: normal;
+        border: 0;
+        font-family: 'Helvetica Neue LT Std';
+    }
+
+.dzsparallaxer:not(.mode-oneelement) .big-text {
+    opacity: 1 !important;
+}
+
+.subscribe-form {
+}
+.latest-offer-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
